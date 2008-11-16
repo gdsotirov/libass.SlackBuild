@@ -1,0 +1,11 @@
+libass: LibASS (A portable library for SSA/ASS subtitles rendering)
+libass:
+libass: Libass is a portable library for SSA/ASS subtitles rendering.
+libass: SubStation Alpha (or Sub Station Alpha), abbreviated SSA, is a
+libass: subtitle file format created by Kotus that allows for more advanced
+libass: subtitles than the conventional SRT and similar formats.
+libass:
+libass:
+libass:
+libass:
+libass: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
