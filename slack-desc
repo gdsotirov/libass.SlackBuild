@@ -1,4 +1,4 @@
-libass: LibASS (A portable library for SSA/ASS subtitles rendering)
+libass: LibASS (A portable SSA/ASS subtitle renderer)
 libass:
 libass: Libass is a portable library for SSA/ASS subtitles rendering.
 libass: SubStation Alpha (or Sub Station Alpha), abbreviated SSA, is a
