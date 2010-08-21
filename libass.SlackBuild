@@ -7,7 +7,7 @@
 . ../slack-package.conf
 
 NAME=libass
-VERSION=0.9.6
+VERSION=0.9.11
 BUILD=1
 ARCH=${ARCH:-i486}
 
@@ -74,9 +74,9 @@ install -m 644 $CWD/$NAME.SlackBuild $PKG/usr/src/slackbuilds/$NAME-$VERSION/$NA
 # Pack
 cd $PKG
 PKGNAME=$NAME-$VERSION-$ARCH-$BUILD$MYIN
-makepkg -l y -c n -p $PKG_DIR/$PKGNAME.tgz
+makepkg -l y -c n -p $PKG_DIR/$PKGNAME.txz
 cd $PKG_DIR
-md5sum $PKGNAME.tgz > $PKGNAME.tgz.md5
+md5sum $PKGNAME.txz > $PKGNAME.txz.md5
 cat $PKG/install/slack-desc > $PKG_DIR/$PKGNAME.txt
 
 # Clean up (optionally)
