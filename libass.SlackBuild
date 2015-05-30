@@ -17,7 +17,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 # 
-# $Id: libass.SlackBuild,v 1.7 2015/05/30 08:19:51 gsotirov Exp $
+# $Id: libass.SlackBuild,v 1.8 2015/05/30 08:31:54 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -66,11 +66,9 @@ CXXFLAGS=$SLKCFLAGS \
             --enable-shared=yes \
             --enable-static=no || exit 4
 
-# Build
-make -j4 all || exit 5
-
-# Install
-make DESTDIR=$PKG install || exit 6
+# Build & install
+make V=1 -j4 all || exit 5
+make V=1 DESTDIR=$PKG install || exit 6
 
 # Prepare
 bin_perms $PKG
