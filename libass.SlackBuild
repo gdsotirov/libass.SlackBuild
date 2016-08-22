@@ -4,10 +4,10 @@
 # Written by Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 
-. ../slack-package.conf
+. ../../slack-package.conf
 
 NAME=libass
-VERSION=0.9.6
+VERSION=0.9.9
 BUILD=1
 ARCH=${ARCH:-i486}
 
@@ -44,6 +44,7 @@ CXXFLAGS=$SLKCFLAGS \
 ./configure --build=$ARCH-slackware-linux \
             --host=$ARCH-slackware-linux \
             --prefix=/usr \
+            --libdir=/usr/lib${LIBDIRSUFFIX} \
             --sysconfdir=/etc \
             --mandir=/usr/man \
             --enable-shared=yes \
