@@ -1,14 +1,10 @@
 bzip2 >= 1.0.6
-cxxlibs >= 6.0.18 | gcc-g++ >= 4.8.2
 expat >= 2.1.0
-fontconfig >= 2.10.93
-freetype >= 2.5.5
-fribidi >= 0.19.2
-gcc >= 4.8.2
-glib2 >= 2.36.4
-glibc-solibs >= 2.17
-harfbuzz >= 0.9.16
-icu4c >= 51.2
-libffi >= 3.0.13
-libpng >= 1.4.12
+fontconfig >= 2.11.1
+freetype >= 2.6.3
+fribidi >= 0.19.7
+glib2 >= 2.46.2
+glibc-solibs >= 2.23
+harfbuzz >= 1.2.7
+libpng >= 1.6.23
 zlib >= 1.2.8
