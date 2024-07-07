@@ -23,7 +23,7 @@
 . ../../slack-package.conf
 
 NAME=libass
-VERSION=0.17.2
+VERSION=0.17.3
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
